@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Sheet</title>
+</head>
+
+    <body>
+        <h2>Google Form</h2>
+        <form action="https://drive.google.com/drive/folders/1Mws9FKOfP5oeOUC_P1EKGSgRVHmZ3AMj?usp=sharing" method="POST">
+            <table border="1"> 
+                <tr>
+                    <th> monday</th>
+                    <th> tuesday</th>
+                    <th> wednesday</th>
+                    <th> thursday</th>
+                    <th> friday</th>
+                    <th> saturday</th>
+                    <th> sunday</th>
+                </tr>
+                <tr>
+                    <td>me</td>
+                    <td>you</td>
+                    <td>him</td>
+                    <td>her</td>
+                    <td>his</td>
+                    <td>this</td>
+                    <td>that</td>
+                </tr>
+            </table><br><br>
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="one"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="two"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone No.:</label></td>
+                    <td><input type="tel" id="phone" name="three"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address:</label></td>
+                    <td><input type="text" id="address" name="four"></td>
+                </tr>
+                <tr>
+                    <td><label>Checkbox:</label></td>
+                    <td>
+                        <input type="checkbox" id="checkbox1" name="checkone">
+                        <label for="checkbox1">Sleeping</label><br>
+                        <input type="checkbox" id="checkbox2" name="checktwo">
+                        <label for="checkbox2">Eating</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Radio:</label></td>
+                    <td>
+                        <input type="radio" id="radio1" name="entry.7" value="Sleeping">
+                        <label for="radio1">Sleeping</label><br>
+                        <input type="radio" id="radio2" name="entry.7" value="Eating">
+                        <label for="radio2">Eating</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
